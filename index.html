@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <!-- Favicon -->
+
+  <link rel="icon" href="favicon.ico">
+
+  <!-- Fonts -->
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- CSS Styles -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+
+  <script defer src="node_modules/@fortawesome/fontawesome-free/js/solid.js"></script>
+  <script defer src="node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"></script>
+
+
+  <meta charset="utf-8">
+  <title>Megahit Agency</title>
+</head>
+
+<body>
+  <header>
+
+    <section class="header-section" id="title">
+
+
+
+      <div class="container-fluid" id="header">
+
+
+        <!-- Nav Bar -->
+
+        <nav class="navbar navbar-light  navbar-expand-lg" aria-label="Navbar">
+          <a class="navbar-brand" href="#title"><img src="images/Logo.jpeg" alt="company logo" class="company-logo" width="250" height="auto" alt="" loading="lazy"></a>
+
+          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active"><a class="nav-link" href="#title">Home<span class="sr-only">(current)</span></a></li>
+              <li class="nav-item"><a class="nav-link" href="#what-we-do">Services</a></li>
+              <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Title -->
+
+        <div class="title-heading">
+          <h1 class="big-heading">Megahit Agency is a multi-service digital marketing agency, generating leads & revenue for each of our clients.</h1>
+          <button type="button" class="btn btn-outline-dark btn-lg title-button" onclick="location.href='#what-we-do'">Get Started! <i class="fas fa-arrow-down"></i></button>
+        </div>
+
+      </div>
+
+
+    </section>
+  </header>
+
+  <!-- =============== -->
+  <!-- What We Do -->
+  <!-- =============== -->
+
+  <section class="what-we-do" id="what-we-do">
+
+    <div class="container">
+      <h2 class="section-heading">WHAT WE DO</h2>
+
+      <p>Megahit Agency is a multi-service digital marketing agency, generating leads & revenue for each of our clients.
+        <a class="text-muted" href="#"><span>GET STARTED</span></a>
+      </p>
+    </div>
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-lg-4">
+          <h3 class="feature-title">Targeted Facebook Ads.</h3>
+          <img class="mockup" src="images/target.png" alt="target">
+          <p class="features">Hyper-relevant offers directly in the hands of your dream customer.</p>
+        </div>
+        <div class="col-lg-4">
+          <h3 class="feature-title">Sales Funnel.</h3>
+          <img class="mockup" src="images/funnel.png" alt="funnel">
+          <p class="features">Automate your cold-traffic strategy with high-conversion landing pages.</p>
+        </div>
+        <div class="col-lg-4">
+          <h3 class="feature-title">Lead Generation.</h3>
+          <img class="mockup" src="images/leadgeneration.png" alt="lead generation">
+          <p class="features">The quality of your content dictates the power of your message.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- About Us -->
+
+  <section class="about" id="about">
+
+    <div class="container">
+      <h2 class="section-heading">About Us</h2>
+    </div>
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-lg-6">
+          <img class="profile" src="images/profile.jpeg" width="70%" alt="profile">
+        </div>
+        <div class="col-lg-6">
+          <h3 class="feature-title">Megahit Agency.</h3>
+          <p class="features">Megahit Agency is a multi-service digital marketing agency, generating leads & revenue for each of our clients.
+            Megahit Agency specialise in running online adverts through Facebook, Instagram & Google. We pride ourselves in building a strong online presence
+            & a sustainable brand for all of our clients!
+            <br><br>
+            Megahit agency has worked with serval E-Commerce Stores, generating qualified leads & increasing revenue on a monthly basis.
+            We have successfully created a new revenue stream online, which brings customers into automation for each of our clients!
+            <br><br>
+            Megahit Agency utilises Facebook's Two Billion Active Users Per Day, to meet our clients needs & target their products /
+            services to the exact audience demographic they require!
+          </p>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Us -->
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="section-heading">Contact Us</h2>
+    </div>
+
+    <form class="contactForm" action="index.html" method="post">
+      <div class="row g-3">
+        <div class="col-sm-6">
+          <label for="firstName" class="form-label">First name</label>
+          <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+          <div class="invalid-feedback">
+            Valid first name is required.
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <label for="lastName" class="form-label">Last name</label>
+          <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+          <div class="invalid-feedback">
+            Valid last name is required.
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row g-3">
+        <div class="col-sm-6">
+          <label for="number" class="form-label">Phone Number</label>
+          <input type="tel" class="form-control" id="number" placeholder="" value="" required>
+          <div class="invalid-feedback">
+            Valid phone number is required.
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
+          <input type="email" class="form-control" id="email" placeholder="you@example.com">
+          <div class="invalid-feedback">
+            Please enter a valid email address.
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-outline-dark btn-lg" >Submit</button>
+    </form>
+  </section>
+
+  <!-- =============== -->
+  <!-- Footer -->
+  <!-- =============== -->
+
+  <section class="container-fluid" id="footer">
+
+    <footer class="pt-4 my-md-5 pt-md-5 border-top" id="footertext">
+      <div class="row footer-section justify-content-between">
+
+
+        <div class="col-lg-6">
+          <h5>Navigation</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="index.html#title">Home</a></li>
+            <li><a class="text-muted" href="index.html#services">Services</a></li>
+            <li><a class="text-muted" href="about.html">About</a></li>
+            <li><a class="text-muted" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <h5>Megahit Agency.</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="mailto:info@designtoscale.co.uk">info@megahitagency.co.uk</a></li>
+            <li><a class="text-muted" href="tel:+447875551284">00000 000000</a></li>
+              <li class="text-muted">Belfast, Northern Ireland</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="branding">
+        <p>Copyright &copy; 2021 | Megahit Agency | All Rights Reserved</p>
+        <p>Design by Design to Scale Ltd.</p>
+      </div>
+
+    </footer>
+
+  </section>
+
+</body>
+
+</html>

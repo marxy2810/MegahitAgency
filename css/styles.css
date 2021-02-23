@@ -1,0 +1,133 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  color: #112d4e;
+  z-index: 1;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+body {
+background-color: #F9F7F7;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+
+}
+
+.btn-outline-dark {
+  background-color: #F15F22;
+  color: #f9f7f7;
+}
+
+.btn-outline-dark:hover {
+    background-color: #112D4E !important;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.section-heading {
+  font-size: 75px;
+  line-height: 1.5;
+  margin-top: 40px;
+}
+
+/* Header Section */
+
+.navbar {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-size: 20px;
+}
+
+#title .container-fluid {
+  padding: 3% 10% 10%;
+  text-align: left;
+  height: 100vh;
+}
+
+#title {
+  background-color: white;
+}
+
+.title-heading {
+  padding: 15% 0% 10%;
+  position: relative;
+  text-align: center;
+}
+
+.title-button {
+  margin: 0 auto;
+  display: block;
+}
+
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding-right:
+}
+
+
+
+/* What We Do */
+
+#what-we-do {
+  position: relative;
+  padding-top: 100px;
+  background-color: #BDBEC0;
+}
+
+.mockup {
+  width: 30%;
+  position: relative;
+  right: 0%;
+}
+
+/* About */
+
+.profile {
+  border-radius: 50%;
+  padding-top: 60px;
+}
+
+/* Contact Us */
+
+.contactForm {
+  max-width: 960px;
+  margin: 0 auto;
+  display: block;
+  padding-bottom: 2%;
+}
+
+/* Footer */
+
+#footer {
+background-color: #BDBEC0;
+}
+
+#footertext {
+  text-align: center;
+  padding: 3% 0% 0%;
+}
+
+#footer.container-fluid {
+  padding: 2% 15%;
+}
+
+.branding p {
+  font-size: 1rem;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1350px) {
+
+  #title .container-fluid {
+    height: auto;
+  }
