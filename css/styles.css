@@ -1,7 +1,7 @@
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
-  color: #112d4e;
+  color: black;
   z-index: 1;
 }
 
@@ -55,7 +55,7 @@ background-color: #F9F7F7;
 }
 
 .title-heading {
-  padding: 15% 0% 10%;
+  padding: 10% 0% 10%;
   position: relative;
   text-align: center;
 }
@@ -79,7 +79,7 @@ background-color: #F9F7F7;
 #what-we-do {
   position: relative;
   padding-top: 100px;
-  background-color: #BDBEC0;
+  background-color: #eeeeee;
 }
 
 .mockup {
@@ -111,7 +111,7 @@ background-color: #F9F7F7;
 /* Footer */
 
 #footer {
-background-color: #BDBEC0;
+background-color: #EEEEEE;
 }
 
 #footertext {
