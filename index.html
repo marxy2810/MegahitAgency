@@ -40,7 +40,7 @@
         <nav class="navbar navbar-light  navbar-expand-lg" aria-label="Navbar">
           <a class="navbar-brand" href="#title"><img src="images/Logo.jpeg" alt="company logo" class="company-logo" width="250" height="auto" alt="" loading="lazy"></a>
 
-          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
@@ -57,7 +57,7 @@
         <!-- Title -->
 
         <div class="title-heading">
-          <h1 class="big-heading">Megahit Agency is a Multi Service Digital Marketing agency, creating Brand Awareness, Increasing Store Traffic & Boosting Monthly Revenue for each of our clients, through Strategic Digital Marketing Campaigns.</h1>
+          <h1 class="big-heading">We are a Multi Service Digital Marketing Agency, creating Brand Awareness, Increasing Store Traffic & Boosting Monthly Revenue for each of our clients.</h1>
           <button type="button" class="btn btn-outline-dark btn-lg title-button" onclick="location.href='#what-we-do'">Get Started! <i class="fas fa-arrow-down"></i></button>
         </div>
 
@@ -146,7 +146,7 @@
       <div class="row g-3">
         <div class="col-sm-6">
           <label for="firstName" class="form-label">First name</label>
-          <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+          <input type="text" class="form-control" id="firstName" name="fName" placeholder="" value="" required>
           <div class="invalid-feedback">
             Valid first name is required.
           </div>
@@ -154,7 +154,7 @@
 
         <div class="col-sm-6">
           <label for="lastName" class="form-label">Last name</label>
-          <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+          <input type="text" class="form-control" id="lastName" name="lName" placeholder="" value="" required>
           <div class="invalid-feedback">
             Valid last name is required.
           </div>
@@ -164,7 +164,7 @@
       <div class="row g-3">
         <div class="col-sm-6">
           <label for="number" class="form-label">Phone Number</label>
-          <input type="tel" class="form-control" id="number" placeholder="" value="" required>
+          <input type="tel" class="form-control" id="number" name="number" placeholder="" value="" required>
           <div class="invalid-feedback">
             Valid phone number is required.
           </div>
@@ -172,7 +172,7 @@
 
         <div class="col-sm-6">
           <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
-          <input type="email" class="form-control" id="email" placeholder="you@example.com">
+          <input type="email" class="form-control" id="email" name="email" placeholder="you@example.com">
           <div class="invalid-feedback">
             Please enter a valid email address.
           </div>
@@ -181,7 +181,7 @@
       <br>
       <div class="mb-3">
         <label for="message" class="form-label">Message</label>
-        <textarea class="form-control" id="message" rows="3"></textarea>
+        <textarea class="form-control" id="message" rows="3" name="message"></textarea>
       </div>
       <button type="submit" class="btn btn-outline-dark btn-lg" >Submit</button>
     </form>
