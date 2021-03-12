@@ -44,6 +44,10 @@ background-color: #F9F7F7;
   font-size: 20px;
 }
 
+.nav-item{
+   text-align: right;
+}
+
 #title .container-fluid {
   padding: 0% 10% 10%;
   text-align: left;
@@ -130,8 +134,64 @@ background-color: #EEEEEE;
 
 /* MEDIA QUERIES */
 
-@media (max-width: 1350px) {
+@media (max-width: 1400px) {
+
+  p {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  h5 {
+    font-size: 1.75rem;
+  }
+
+
 
   #title .container-fluid {
-    height: auto;
+    height: 100vh;
   }
+
+  .title-heading {
+    padding: 25% 0% 10%;
+    position: relative;
+    text-align: center;
+  }
+
+  .title-heading .btn-lg {
+    margin-top: 100px;
+  }
+
+  .navbar {
+    font-size: 50px;
+  }
+
+  .navbar-toggler-icon {
+    width: 3em;
+    height: 3em;
+  }
+
+ .btn-lg {
+    font-size: 2rem;
+    line-height: 2.5;
+  }
+
+  form {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  label {
+    font-size: 2rem;
+  }
+
+  .form-control {
+    font-size: 1.75rem;
+  }
+
+  #footer {
+    font-size: 1.5rem;
+  }
+}
